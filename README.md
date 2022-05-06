@@ -6,13 +6,12 @@ Show certificate info for start date, end date and serial
 
 
 # Run script from repo
-    $ curl -s https://raw.githubusercontent.com/ura718/certinfo/main/show_cert_info.sh | bash -s <site.com>
-
+    $ curl -s https://raw.githubusercontent.com/Systems-NYULib/certinfo/main/show_cert_info.sh | bash -s <site.com>
 
 # Setup alias in .bashrc for easy use
     $ vi .bashrc
 
-    alias certinfo='curl -s https://raw.githubusercontent.com/ura718/certinfo/main/show_cert_info.sh | bash -s $1'
+    alias certinfo='curl -s https://raw.githubusercontent.com/Systems-NYULib/certinfo/main/show_cert_info.sh | bash -s $1'
     
 
     After alias is setup run command
